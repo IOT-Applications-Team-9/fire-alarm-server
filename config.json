@@ -1,0 +1,25 @@
+{
+    "databaseInfo": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "fire_alarm_system"
+    },
+    "MQTTBrokerInfo": {
+        "host": "broker.hivemq.com",
+        "port": 1883,
+        "clientId": "fire_alarm_mqtt_fas_server",
+        "dataTopic": "mqtt_fas_data",
+        "commandTopic": "mqtt_fas_command",
+        "stateTopic": "mqtt_fas_state"
+    },
+    "OAuthClient": {
+        "service": "gmail",
+        "type": "OAuth2",
+        "GOOGLE_MAILER_CLIENT_ID": "Nhập goole client ID của bạn vào đây",
+        "GOOGLE_MAILER_CLIENT_SECRET": "Nhập Google client secret của bạn vào đây",
+        "GOOGLE_MAILER_REFRESH_TOKEN": "Nhập secret token của bạn vào đây",
+        "ADMIN_EMAIL_ADDRESS": "Nhập địa chỉ email của bạn vào đây"
+    }
+}
+
